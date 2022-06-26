@@ -1,7 +1,8 @@
 # react-best-practice-project
 真实世界中使用垂直切片架构模板
 
-
+## 架构思想
+https://iced-stealer-bdc.notion.site/6993f6f178bd44e29c9fd1ea615d97f0
 
 - [x] vite + typescript + react + react-router 项目初始化
 - [x] 垂直切片架构设计项目文件
