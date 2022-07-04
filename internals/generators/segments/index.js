@@ -1,8 +1,5 @@
-
-
 // const BASE_RELATIVE_PATH = "../.."
 // const path = require('path')
-
 
 // export default function (plop) {
 //   // controller generator

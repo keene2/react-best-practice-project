@@ -1,15 +1,13 @@
-import { lazy } from "react";
-import NotFoundPage from './404'
-import HomePage from './home'
-import { Routes, Route } from "react-router-dom";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import NotFoundPage from './404';
+import HomePage from './home';
 
-
-export const Routing = () => {
+export default function Routing() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/404" element={<NotFoundPage />} />
     </Routes>
-
   );
-};
+}
