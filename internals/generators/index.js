@@ -1,37 +1,40 @@
-
 module.exports = function (plop) {
   // controller generator
   plop.setGenerator('layer', {
     description: 'application layer logic',
-    prompts: [{
-      type: 'input',
-      name: 'layer',
-      message: 'layers name please'
-    }, {
-      type: 'input',
-      name: 'name',
-      message: 'module name please'
-    }],
-    actions: [{
-      type: 'add',
-      path: '../../src/{{layer}}/{{name}}/index.ts',
-      templateFile: './segments/index.hbs',
-    },
-    {
-      type: 'add',
-      path: '../../src/{{layer}}/{{name}}/ui/index.ts',
-      templateFile: './segments/ui.hbs',
-    },
-    {
-      type: 'add',
-      path: '../../src/{{layer}}/{{name}}/lib/index.ts',
-    },
-    {
-      type: 'add',
-      path: '../../src/{{layer}}/{{name}}/model/index.ts',
-      templateFile: './segments/model.hbs',
-    }
-    ]
+    prompts: [
+      {
+        type: 'input',
+        name: 'layer',
+        message: 'layers name please',
+      },
+      {
+        type: 'input',
+        name: 'name',
+        message: 'module name please',
+      },
+    ],
+    actions: [
+      {
+        type: 'add',
+        path: '../../src/{{layer}}/{{name}}/index.ts',
+        templateFile: './segments/index.hbs',
+      },
+      {
+        type: 'add',
+        path: '../../src/{{layer}}/{{name}}/ui/index.ts',
+        templateFile: './segments/ui.hbs',
+      },
+      {
+        type: 'add',
+        path: '../../src/{{layer}}/{{name}}/lib/index.ts',
+      },
+      {
+        type: 'add',
+        path: '../../src/{{layer}}/{{name}}/model/index.ts',
+        templateFile: './segments/model.hbs',
+      },
+    ],
   });
 };
 
