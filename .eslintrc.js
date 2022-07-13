@@ -16,6 +16,7 @@ module.exports = {
     'prettier/prettier': 2,
     'import/extensions': 0,
     '@typescript-eslint/comma-dangle': 0,
+    'no-multiple-empty-lines': ['error', { max: 2 }],
   },
   settings: {
     'import/resolver': {
