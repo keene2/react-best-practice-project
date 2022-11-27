@@ -8,7 +8,7 @@ https://iced-stealer-bdc.notion.site/6993f6f178bd44e29c9fd1ea615d97f0
 - [x] 垂直切片架构设计项目文件
 - [x] cli 自动化创建样板文件
 - [x] 编码质量工具配置: eslint, prettier, commit-lint
-- [ ] [状态管理设计](https://iced-stealer-bdc.notion.site/5ce3c65c1a9b41e7833a1cbca13feaa5)
+- [ ] [项目架构设计](https://iced-stealer-bdc.notion.site/5ce3c65c1a9b41e7833a1cbca13feaa5)
 - [ ] 登录注册以及权限架构
 - [ ] 项目规范
   - [ ] 编码规范
